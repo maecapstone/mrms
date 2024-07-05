@@ -1,0 +1,35 @@
+.p-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bg-center-items {
+  position: relative;
+}
+.bg-center-items::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: red;
+  z-index: 100;
+  display: grid;
+  place-content: center;
+  font-size: 10rem;
+  filter: blur(5px);
+  opacity: 0;
+}
+
+@media print {
+  .print-d-none {
+    display: none !important;
+  }
+  .print-w-100 {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
