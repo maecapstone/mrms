@@ -4,8 +4,8 @@
     // require __DIR__ . '/assets/sms/vendor/autoload.php';
 
     // // Your Account SID and Auth Token from console.twilio.com
-    // $sid = "AC84d3242561e54934e007380ff6b3ae19";
-    // $token = "e59ef314d4cd8e901afc852b8cb49c79";
+    
+
     // $client = new Twilio\Rest\Client($sid, $token);
 
     // // Use the Client to make requests to the Twilio REST API
