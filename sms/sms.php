@@ -31,7 +31,7 @@
 
     try{
 
-    $basic  = new \Vonage\Client\Credentials\Basic("33308996", "ee5SbtSKyByHethU");
+    $basic  = new \Vonage\Client\Credentials\Basic("33308996", "");
     $client = new \Vonage\Client($basic);
 
 
